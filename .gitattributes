@@ -1,3 +1,4 @@
 *.html linguist-detectable=false
 *.ipynb linguist-detectable=false
 *.png linguist-detectable=false
+*.zip filter=lfs diff=lfs merge=lfs -text
