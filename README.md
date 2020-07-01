@@ -31,7 +31,7 @@
 
 
 
-IThis project focuses on the problem of building a binary classification model to identify and flag fraudulent credit card transactions based on provided, *historical* data. The nature of fraudulent transactions is that there are significantly more valid transactions than fraudulent ones so it requires a slightly different approach than a traditional binary classification problem. In this scenario, the SageMaker [LinearLearner](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html) model was used since it is well-suited for binary classification tasks that may require managing a class imbalance in the training set. A lot of this project will focus on making model improvements, specifically, techniques will be used to:
+This project focuses on the problem of building a binary classification model to identify and flag fraudulent credit card transactions based on provided, *historical* data. The nature of fraudulent transactions is that there are significantly more valid transactions than fraudulent ones so it requires a slightly different approach than a traditional binary classification problem. In this scenario, the SageMaker [LinearLearner](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html) model was used since it is well-suited for binary classification tasks that may require managing a class imbalance in the training set. A lot of this project will focus on making model improvements, specifically, techniques will be used to:
 
 
 1. **Tuning a model's hyperparameters** and aiming for a specific metric, such as higher recall or precision
