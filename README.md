@@ -91,16 +91,16 @@ This was the general outline followed for this SageMaker project:
 
 
 1. Loading and exploring the data
-        a. Calculating the percentage of fraudulent data
+    * a. Calculating the percentage of fraudulent data
 2. Splitting data into training and test sets
 3. Binary classification
-        a. Define a LinearLearner model
-        b. Train the model
-        c. Evaluate model performance
+    * a. Define a LinearLearner model
+    * b. Train the model
+    * c. Evaluate model performance
 4. Making improvements to the model
-        a. Tune for higher recall
-        b. Manage class imbalance
-        c. Tune for higher precision
+    * a. Tune for higher recall
+    * b. Manage class imbalance
+    * c. Tune for higher precision
 8. Important: Deleting the endpoint
 
 
