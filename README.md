@@ -101,7 +101,6 @@ This was the general outline followed for this SageMaker project:
     * a. Tune for higher recall
     * b. Manage class imbalance
     * c. Tune for higher precision
-8. Important: Deleting the endpoint
 
 
 
