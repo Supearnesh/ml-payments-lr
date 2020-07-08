@@ -74,7 +74,7 @@ Click on the 'new' dropdown menu and select 'terminal'. By default, the working 
 
 ```
 cd SageMaker
-git clone https://github.com/Supearnesh/ml-census-pca.git
+git clone https://github.com/Supearnesh/ml-payments-sgd.git
 exit
 ```
 
