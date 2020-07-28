@@ -1,4 +1,4 @@
-# Binary Classification of Fraudulent Payments using Stochastic Gradient Descent (SGD)
+# Binary Classification of Fraudulent Payments using Stochastic Gradient Descent
 
 
 
