@@ -38,7 +38,7 @@ This project focuses on the problem of building a binary classification model to
 2. **Managing class imbalance**, which is when there are many more training examples in one class than another (in this case, many more valid transactions than fraudulent)
 
 
-SageMaker's LinearLearner model uses a distributed implementation of [Stochastic Gradient Descent (SGD)](https://en.wikipedia.org/wiki/Stochastic_gradient_descent) to train and allows for easy optimization to meet different objectives. In this project, the goal was to solve the fraud detection problem with a variety of different approaches, one that favored higher precision, one that favored higher recall, and another that was more balanced. In a [2016 study](https://nilsonreport.com/upload/content_promo/The_Nilson_Report_10-17-2016.pdf), it was estimated that credit card fraud was responsible for over 20 billion dollars in loss, worldwide. Accurately detecting cases of fraud is an ongoing area of research.
+SageMaker's LinearLearner model uses a distributed implementation of [Stochastic Gradient Descent (SGD)](https://en.wikipedia.org/wiki/Stochastic_gradient_descent) to train a logistic regression model and allows for easy optimization to meet different objectives. In this project, the goal was to solve the fraud detection problem with a variety of different approaches, one that favored higher precision, one that favored higher recall, and another that was more balanced. In a [2016 study](https://nilsonreport.com/upload/content_promo/The_Nilson_Report_10-17-2016.pdf), it was estimated that credit card fraud was responsible for over 20 billion dollars in loss, worldwide. Accurately detecting cases of fraud is an ongoing area of research.
 
 
 <img src=img/fraud_detection.png width=50% />
