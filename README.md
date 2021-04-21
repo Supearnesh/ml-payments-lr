@@ -1,4 +1,4 @@
-# Binary Classification of Fraudulent Payments using Stochastic Gradient Descent
+# Binary Classification of Fraudulent Payments using Logistic Regression
 
 
 
